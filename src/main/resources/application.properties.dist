@@ -1,0 +1,14 @@
+debug=true
+server.port=
+
+# Details for our datasource
+spring.datasource.url =
+spring.datasource.username =
+spring.datasource.password =
+
+# Hibernate properties
+spring.jpa.database-platform = org.hibernate.dialect.PostgreSQL94Dialect
+spring.jpa.show-sql = false
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.hibernate.naming.implicit-strategy = org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+spring.jpa.properties.hibernate.format_sql=true
